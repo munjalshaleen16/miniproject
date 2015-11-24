@@ -37,3 +37,53 @@
 </div>
 </body>
 </html>
+
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Graphics era hospital</title>
+    </head>
+    <body bgcolor="ivory">
+    <center>  <h1>Graphics Era Hospital</h1>
+        <font size="5">  <a href="searchbyname.html">Search By name</a><br>
+        <a href="searchbyyear.html">Search By Year</a></font>
+    </center></body>
+</html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+</head>
+<body>
+    <center><h1>baby names</h1>
+        <font size="5">
+        <form method="post" action="searchbyname.jsp">
+            <table border="0">
+                <tr>
+                    <td> Enter Name</td>  <td><input type="text" name="sname"></input></td></tr>
+                <tr><td> Enter Starting Year</td> <td><input type="text" name="syear"></input><br></br></td></tr>
+                <tr><td>Enter Ending Year</td> <td> <input type="text" name="eyear" value="2013"> </td></tr>
+                 <tr><td>Criteria</td> <td> <input type="Radio" name="sex" value="M">Male  
+            <input type="radio" name="sex" value="F">Female <input type="Radio" name="sex" value="B">Both</td></tr>
+               
+                <tr>
+                    <td colspan="2"><input type="submit" value=submit></td>
+                </tr>
+            </table>
+        </form></font></center>
+    </body>
+</html>
+
+
+
